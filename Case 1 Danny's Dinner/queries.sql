@@ -13,7 +13,7 @@ GROUP BY customer_id;
 
 -- Q2: How many days has each customer visited the restaurant?
 SELECT 
-    customer_id, COUNT(DISTINCT order_date)
+    customer_id, COUNT(DISTINCT order_date) as days
 FROM
     sales
 GROUP BY customer_id;
@@ -82,8 +82,8 @@ GROUP BY customer_id;
     
 -- Q7: Which item was purchased just before the customer became a member?
 SELECT customer_id, GROUP_CONCAT(product_name) as purchases_before_member
-FROM (
-	SELECT
+FROM 
+	(SELECT
 		sales.customer_id, 
         menu.product_name,
         RANK() OVER(PARTITION BY customer_id ORDER BY order_date DESC) as top1

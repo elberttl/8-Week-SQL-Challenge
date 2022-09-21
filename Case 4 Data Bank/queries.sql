@@ -120,7 +120,8 @@ FROM
 	GROUP BY customer_id, n
 	ORDER BY customer_id
 ) as t,
-(SELECT @balance := 0, @cus_id := 0) as var;
+(SELECT @balance := 0, @cus_id := 0) as var
+WHERE customer_id<5;
 
 -- Q5: What is the percentage of customers who increase their closing balance by more than 5%?
 SELECT 
@@ -136,8 +137,8 @@ FROM
 				THEN @balance := balance_change
 				ELSE @balance := @balance + balance_change
 			END) as closing_balance
-		FROM (
-			SELECT 
+		FROM 
+			(SELECT 
 				customer_id,
 				MONTHNAME(STR_TO_DATE(n,'%m')) as month,
 				FORMAT(SUM(CASE 
