@@ -40,7 +40,8 @@ FROM
 	customer_orders AS co
 JOIN pizza_names AS pn
 	ON co.pizza_id = pn.pizza_id
-GROUP BY co.customer_id, co.pizza_id;
+GROUP BY co.customer_id, co.pizza_id
+ORDER BY co.customer_id;
 
 -- Q6: What was the maximum number of pizzas delivered in a single order?
 SELECT 
@@ -161,14 +162,12 @@ GROUP BY ro.runner_id;
 
 -- Q7: What is the successful delivery percentage for each runner?
 SELECT 
-	co.customer_id, 
-	SUM(ro.distance != 'null') AS success, 
-    SUM(ro.distance = 'null') AS failure,
-    CONCAT(FORMAT(SUM(ro.distance != 'null') / COUNT(ro.distance)*100, 0), '%') AS success_percentage
-FROM customer_orders AS co
-JOIN runner_orders AS ro
-	ON co.order_id = ro.order_id
-GROUP BY co.customer_id;
+	runner_id, 
+	SUM(distance != 'null') AS success, 
+    SUM(distance = 'null') AS failure,
+    CONCAT(FORMAT(SUM(distance != 'null') / COUNT(distance)*100, 0), '%') AS success_percentage
+FROM runner_orders
+GROUP BY runner_id;
 
 -- --------------------------------------
 
@@ -189,7 +188,7 @@ ORDER BY pizza_id)
 
 SELECT 
 	ts.pizza_id, 
-    GROUP_CONCAT(pt.topping_name SEPARATOR ', ') as toppings
+    GROUP_CONCAT(pt.topping_name SEPARATOR ', ') as ingredients
 FROM topping_separated AS ts
 JOIN pizza_toppings AS pt
 	ON ts.topping = pt.topping_id
@@ -281,7 +280,6 @@ FROM (
 	JOIN pizza_names AS pn
 		ON m.pizza_id = pn.pizza_id
 	GROUP BY pizza_order_id) AS order_name;
-SELECT * FROM customer_orders;
 
 -- Q5: Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table 
 -- and add a 2x in front of any relevant ingredients
