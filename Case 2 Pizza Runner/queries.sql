@@ -432,6 +432,8 @@ VALUES
   ('8', '2', '3'),
   ('9', '2', '4'),
   ('10', '1', '2');
+
+SELECT * FROM runner_ratings;
   
 -- Q4: Using your newly generated table - can you join all of the information together to 
 -- form a table which has the following information for successful deliveries?
