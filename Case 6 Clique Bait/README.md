@@ -1,5 +1,11 @@
 # Case Study #6 - Clique Bait
 
+- [Case Study #6 - Clique Bait](#case-study-6---clique-bait)
+  - [A. Enterprise Relationship Diagram](#a-enterprise-relationship-diagram)
+  - [B. Digital Analysis](#b-digital-analysis)
+  - [C. Product Funnel Analysis](#c-product-funnel-analysis)
+  - [D. Campaign Analysis](#d-campaign-analysis)
+
 ## A. Enterprise Relationship Diagram
 ![ERP](ERP.png)
 

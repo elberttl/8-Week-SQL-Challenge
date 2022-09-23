@@ -1,5 +1,11 @@
 # Case Study #1 - Danny's Diner
 
+- [Case Study #1 - Danny's Diner](#case-study-1---dannys-diner)
+  - [Case Study Questions](#case-study-questions)
+  - [Bonus Questions](#bonus-questions)
+    - [Join All The Things](#join-all-the-things)
+    - [Rank All The Things](#rank-all-the-things)
+
 ## Case Study Questions
 
 1. What is the total amount each customer spent at the restaurant?

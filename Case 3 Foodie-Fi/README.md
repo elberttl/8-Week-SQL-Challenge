@@ -1,5 +1,11 @@
 # Case Study #3 - Foodie-Fi
 
+- [Case Study #3 - Foodie-Fi](#case-study-3---foodie-fi)
+	- [A. Customer Journey](#a-customer-journey)
+	- [B. Data Analysis Questions](#b-data-analysis-questions)
+	- [C. Challenge Payment Order](#c-challenge-payment-order)
+	- [D. Outside The Box Questions](#d-outside-the-box-questions)
+
 ## A. Customer Journey
 
 Here are 8 sample customers based on the data.

@@ -1,5 +1,11 @@
 # Case Study #2 - Pizza Runner
 
+- [Case Study #2 - Pizza Runner](#case-study-2---pizza-runner)
+	- [A. Pizza Metrics](#a-pizza-metrics)
+	- [B. Runner and Customer Experience](#b-runner-and-customer-experience)
+	- [C. Ingredient Optimisation](#c-ingredient-optimisation)
+	- [D. Pricing and Ratings](#d-pricing-and-ratings)
+
 ## A. Pizza Metrics
 1. How many pizzas were ordered?
 

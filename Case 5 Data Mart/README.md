@@ -1,5 +1,11 @@
 # Case Study #5 - Data Mart
 
+- [Case Study #5 - Data Mart](#case-study-5---data-mart)
+	- [A. Data Cleansing](#a-data-cleansing)
+	- [B. Data Exploration](#b-data-exploration)
+	- [C. Before & After Analysis](#c-before--after-analysis)
+	- [D. Bonus Question](#d-bonus-question)
+
 ## A. Data Cleansing
 
 ```sql

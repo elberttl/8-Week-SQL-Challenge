@@ -1,5 +1,9 @@
 # Case Study #4 - Data Bank
 
+- [Case Study #4 - Data Bank](#case-study-4---data-bank)
+	- [A. Customer Node Exploration](#a-customer-node-exploration)
+	- [B. Customer Transactions](#b-customer-transactions)
+
 ## A. Customer Node Exploration
 1. How many unique nodes are there on the Data Bank system?
 
