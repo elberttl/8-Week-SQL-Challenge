@@ -1,7 +1,7 @@
 # Case Study #6 - Clique Bait|COUNT
 
 ## A. Enterprise Relationship Diagram
-<iframe width="560" height="315" src='https://dbdiagram.io/embed/632d10d47b3d2034ff960443'> </iframe>
+![ERP](ERP.png)
 
 In case the above embedded diagram doesn't load, check out the ERP.png file.
 
