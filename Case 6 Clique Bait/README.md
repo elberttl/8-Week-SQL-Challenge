@@ -1,4 +1,4 @@
-# Case Study #6 - Clique Bait|COUNT
+# Case Study #6 - Clique Bait
 
 ## A. Enterprise Relationship Diagram
 ![ERP](ERP.png)
