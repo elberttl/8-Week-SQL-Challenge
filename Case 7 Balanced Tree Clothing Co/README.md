@@ -1,5 +1,12 @@
 # Case Study #7 - Balanced Tree Clothing Co.
 
+- [Case Study #7 - Balanced Tree Clothing Co.](#case-study-7---balanced-tree-clothing-co)
+  - [A. High Level Analysis](#a-high-level-analysis)
+  - [B. Transaction Analysis](#b-transaction-analysis)
+  - [C. Product Analysis](#c-product-analysis)
+  - [D. Reporting Challenge](#d-reporting-challenge)
+  - [E. Bonus Challenge](#e-bonus-challenge)
+
 ## A. High Level Analysis
 
 1. What was the total quantity sold for all products?
