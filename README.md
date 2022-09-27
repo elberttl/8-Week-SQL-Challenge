@@ -1,5 +1,5 @@
 # 8-Week-SQL-Challenge
-Solving 8 SQL case study from https://8weeksqlchallenge.com/ using MySQL
+Solving 8 SQL case studies from https://8weeksqlchallenge.com/ using MySQL
 
 Solution link:
 - [Case Study #1 - Danny's Diner](Case%201%20Danny's%20Dinner/README.md)
